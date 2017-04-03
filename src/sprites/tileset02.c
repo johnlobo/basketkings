@@ -1,0 +1,1797 @@
+#include "tileset02.h"
+// Data created with Img2CPC - (c) Retroworks - 2007-2015
+u8* const tl_tileset[224] = { 
+	tl_tileset02_000, tl_tileset02_001, tl_tileset02_002, tl_tileset02_003, tl_tileset02_004, tl_tileset02_005, tl_tileset02_006, tl_tileset02_007, tl_tileset02_008, tl_tileset02_009, tl_tileset02_010, tl_tileset02_011, tl_tileset02_012, tl_tileset02_013, tl_tileset02_014, tl_tileset02_015, tl_tileset02_016, tl_tileset02_017, tl_tileset02_018, tl_tileset02_019, tl_tileset02_020, tl_tileset02_021, tl_tileset02_022, tl_tileset02_023, tl_tileset02_024, tl_tileset02_025, tl_tileset02_026, tl_tileset02_027, tl_tileset02_028, tl_tileset02_029, tl_tileset02_030, tl_tileset02_031, tl_tileset02_032, tl_tileset02_033, tl_tileset02_034, tl_tileset02_035, tl_tileset02_036, tl_tileset02_037, tl_tileset02_038, tl_tileset02_039, tl_tileset02_040, tl_tileset02_041, tl_tileset02_042, tl_tileset02_043, tl_tileset02_044, tl_tileset02_045, tl_tileset02_046, tl_tileset02_047, tl_tileset02_048, tl_tileset02_049, tl_tileset02_050, tl_tileset02_051, tl_tileset02_052, tl_tileset02_053, tl_tileset02_054, tl_tileset02_055, tl_tileset02_056, tl_tileset02_057, tl_tileset02_058, tl_tileset02_059, tl_tileset02_060, tl_tileset02_061, tl_tileset02_062, tl_tileset02_063, tl_tileset02_064, tl_tileset02_065, tl_tileset02_066, tl_tileset02_067, tl_tileset02_068, tl_tileset02_069, tl_tileset02_070, tl_tileset02_071, tl_tileset02_072, tl_tileset02_073, tl_tileset02_074, tl_tileset02_075, tl_tileset02_076, tl_tileset02_077, tl_tileset02_078, tl_tileset02_079, tl_tileset02_080, tl_tileset02_081, tl_tileset02_082, tl_tileset02_083, tl_tileset02_084, tl_tileset02_085, tl_tileset02_086, tl_tileset02_087, tl_tileset02_088, tl_tileset02_089, tl_tileset02_090, tl_tileset02_091, tl_tileset02_092, tl_tileset02_093, tl_tileset02_094, tl_tileset02_095, tl_tileset02_096, tl_tileset02_097, tl_tileset02_098, tl_tileset02_099, tl_tileset02_100, tl_tileset02_101, tl_tileset02_102, tl_tileset02_103, tl_tileset02_104, tl_tileset02_105, tl_tileset02_106, tl_tileset02_107, tl_tileset02_108, tl_tileset02_109, tl_tileset02_110, tl_tileset02_111, tl_tileset02_112, tl_tileset02_113, tl_tileset02_114, tl_tileset02_115, tl_tileset02_116, tl_tileset02_117, tl_tileset02_118, tl_tileset02_119, tl_tileset02_120, tl_tileset02_121, tl_tileset02_122, tl_tileset02_123, tl_tileset02_124, tl_tileset02_125, tl_tileset02_126, tl_tileset02_127, tl_tileset02_128, tl_tileset02_129, tl_tileset02_130, tl_tileset02_131, tl_tileset02_132, tl_tileset02_133, tl_tileset02_134, tl_tileset02_135, tl_tileset02_136, tl_tileset02_137, tl_tileset02_138, tl_tileset02_139, tl_tileset02_140, tl_tileset02_141, tl_tileset02_142, tl_tileset02_143, tl_tileset02_144, tl_tileset02_145, tl_tileset02_146, tl_tileset02_147, tl_tileset02_148, tl_tileset02_149, tl_tileset02_150, tl_tileset02_151, tl_tileset02_152, tl_tileset02_153, tl_tileset02_154, tl_tileset02_155, tl_tileset02_156, tl_tileset02_157, tl_tileset02_158, tl_tileset02_159, tl_tileset02_160, tl_tileset02_161, tl_tileset02_162, tl_tileset02_163, tl_tileset02_164, tl_tileset02_165, tl_tileset02_166, tl_tileset02_167, tl_tileset02_168, tl_tileset02_169, tl_tileset02_170, tl_tileset02_171, tl_tileset02_172, tl_tileset02_173, tl_tileset02_174, tl_tileset02_175, tl_tileset02_176, tl_tileset02_177, tl_tileset02_178, tl_tileset02_179, tl_tileset02_180, tl_tileset02_181, tl_tileset02_182, tl_tileset02_183, tl_tileset02_184, tl_tileset02_185, tl_tileset02_186, tl_tileset02_187, tl_tileset02_188, tl_tileset02_189, tl_tileset02_190, tl_tileset02_191, tl_tileset02_192, tl_tileset02_193, tl_tileset02_194, tl_tileset02_195, tl_tileset02_196, tl_tileset02_197, tl_tileset02_198, tl_tileset02_199, tl_tileset02_200, tl_tileset02_201, tl_tileset02_202, tl_tileset02_203, tl_tileset02_204, tl_tileset02_205, tl_tileset02_206, tl_tileset02_207, tl_tileset02_208, tl_tileset02_209, tl_tileset02_210, tl_tileset02_211, tl_tileset02_212, tl_tileset02_213, tl_tileset02_214, tl_tileset02_215, tl_tileset02_216, tl_tileset02_217, tl_tileset02_218, tl_tileset02_219, tl_tileset02_220, tl_tileset02_221, tl_tileset02_222, tl_tileset02_223
+};
+// Tile tl_tileset02_000: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_000[2 * 4] = {
+	0x33, 0x33,
+	0x33, 0x33,
+	0x33, 0x33,
+	0x33, 0x33
+};
+
+// Tile tl_tileset02_001: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_001[2 * 4] = {
+	0x77, 0x83,
+	0x77, 0xaa,
+	0x77, 0xeb,
+	0x77, 0xd7
+};
+
+// Tile tl_tileset02_002: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_002[2 * 4] = {
+	0x33, 0x33,
+	0x33, 0x33,
+	0x93, 0x33,
+	0x57, 0x33
+};
+
+// Tile tl_tileset02_003: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_003[2 * 4] = {
+	0x77, 0x57,
+	0x77, 0x41,
+	0x77, 0x23,
+	0x77, 0x33
+};
+
+// Tile tl_tileset02_004: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_004[2 * 4] = {
+	0xc3, 0x93,
+	0xab, 0xff,
+	0xeb, 0xd7,
+	0xd7, 0xc3
+};
+
+// Tile tl_tileset02_005: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_005[2 * 4] = {
+	0x77, 0x33,
+	0x77, 0x33,
+	0x77, 0x33,
+	0x77, 0x33
+};
+
+// Tile tl_tileset02_006: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_006[2 * 4] = {
+	0x57, 0xc3,
+	0x63, 0xaa,
+	0x23, 0xff,
+	0x33, 0xd7
+};
+
+// Tile tl_tileset02_007: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_007[2 * 4] = {
+	0xc3, 0x33,
+	0xd7, 0x33,
+	0x43, 0xbb,
+	0x43, 0xd7
+};
+
+// Tile tl_tileset02_008: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_008[2 * 4] = {
+	0x77, 0x33,
+	0x77, 0x33,
+	0x77, 0x33,
+	0x77, 0x33
+};
+
+// Tile tl_tileset02_009: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_009[2 * 4] = {
+	0x33, 0x77,
+	0x33, 0x77,
+	0x33, 0x77,
+	0x33, 0x77
+};
+
+// Tile tl_tileset02_010: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_010[2 * 4] = {
+	0x41, 0x43,
+	0xff, 0x03,
+	0xff, 0xab,
+	0xeb, 0xff
+};
+
+// Tile tl_tileset02_011: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_011[2 * 4] = {
+	0x93, 0x33,
+	0xeb, 0x33,
+	0xd7, 0x11,
+	0x43, 0xaa
+};
+
+// Tile tl_tileset02_012: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_012[2 * 4] = {
+	0x77, 0x33,
+	0x77, 0x33,
+	0x77, 0x33,
+	0x77, 0x33
+};
+
+// Tile tl_tileset02_013: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_013[2 * 4] = {
+	0xff, 0xd7,
+	0xff, 0x43,
+	0x00, 0x11,
+	0x33, 0x33
+};
+
+// Tile tl_tileset02_014: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_014[2 * 4] = {
+	0xaa, 0xc3,
+	0xff, 0x57,
+	0xd7, 0xeb,
+	0x63, 0xff
+};
+
+// Tile tl_tileset02_015: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_015[2 * 4] = {
+	0x11, 0x33,
+	0x93, 0x33,
+	0xeb, 0x33,
+	0xd7, 0x01
+};
+
+// Tile tl_tileset02_016: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_016[2 * 4] = {
+	0x33, 0x33,
+	0x33, 0x33,
+	0x33, 0x33,
+	0x33, 0x32
+};
+
+// Tile tl_tileset02_017: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_017[2 * 4] = {
+	0x33, 0x33,
+	0x33, 0x33,
+	0x30, 0x30,
+	0x00, 0x00
+};
+
+// Tile tl_tileset02_018: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_018[2 * 4] = {
+	0x77, 0x33,
+	0x77, 0x33,
+	0x30, 0x33,
+	0x10, 0x30
+};
+
+// Tile tl_tileset02_019: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_019[2 * 4] = {
+	0xbb, 0x33,
+	0xbb, 0x33,
+	0xbb, 0x33,
+	0xbb, 0x33
+};
+
+// Tile tl_tileset02_020: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_020[2 * 4] = {
+	0x33, 0xd7,
+	0x33, 0x63,
+	0x33, 0x33,
+	0x33, 0x33
+};
+
+// Tile tl_tileset02_021: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_021[2 * 4] = {
+	0xeb, 0xaa,
+	0xff, 0xc3,
+	0xd7, 0xff,
+	0x63, 0xff
+};
+
+// Tile tl_tileset02_022: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_022[2 * 4] = {
+	0x33, 0x22,
+	0x33, 0x77,
+	0x00, 0x55,
+	0xbb, 0x77
+};
+
+// Tile tl_tileset02_023: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_023[2 * 4] = {
+	0x33, 0x32,
+	0x33, 0x33,
+	0x33, 0x33,
+	0x33, 0x33
+};
+
+// Tile tl_tileset02_024: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_024[2 * 4] = {
+	0x00, 0x00,
+	0x30, 0x30,
+	0x33, 0x33,
+	0xff, 0xff
+};
+
+// Tile tl_tileset02_025: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_025[2 * 4] = {
+	0x10, 0x30,
+	0x30, 0x30,
+	0x33, 0xeb,
+	0xff, 0x55
+};
+
+// Tile tl_tileset02_026: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_026[2 * 4] = {
+	0x33, 0x77,
+	0xc3, 0xd7,
+	0x00, 0x55,
+	0xc3, 0xd7
+};
+
+// Tile tl_tileset02_027: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_027[2 * 4] = {
+	0xbb, 0x33,
+	0xff, 0xff,
+	0xaa, 0x00,
+	0xff, 0xff
+};
+
+// Tile tl_tileset02_028: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_028[2 * 4] = {
+	0x33, 0x33,
+	0xff, 0xff,
+	0x00, 0x00,
+	0xff, 0xff
+};
+
+// Tile tl_tileset02_029: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_029[2 * 4] = {
+	0x63, 0xff,
+	0x83, 0xc3,
+	0x02, 0x01,
+	0xeb, 0xc3
+};
+
+// Tile tl_tileset02_030: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_030[2 * 4] = {
+	0xbb, 0x77,
+	0x03, 0x33,
+	0xc3, 0x33,
+	0xff, 0xeb
+};
+
+// Tile tl_tileset02_031: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_031[2 * 4] = {
+	0xd7, 0x00,
+	0x33, 0x22,
+	0x33, 0x33,
+	0x11, 0x33
+};
+
+// Tile tl_tileset02_032: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_032[2 * 4] = {
+	0xf3, 0xf3,
+	0xc3, 0xc3,
+	0xc3, 0xc3,
+	0xc3, 0xc3
+};
+
+// Tile tl_tileset02_033: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_033[2 * 4] = {
+	0xff, 0xff,
+	0xaa, 0xaa,
+	0xd7, 0x00,
+	0xd7, 0xff
+};
+
+// Tile tl_tileset02_034: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_034[2 * 4] = {
+	0xff, 0xf7,
+	0x55, 0xc3,
+	0xeb, 0xc3,
+	0xeb, 0xc3
+};
+
+// Tile tl_tileset02_035: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_035[2 * 4] = {
+	0x00, 0x55,
+	0xeb, 0xd7,
+	0xeb, 0xd7,
+	0xd7, 0xd7
+};
+
+// Tile tl_tileset02_036: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_036[2 * 4] = {
+	0x83, 0x03,
+	0xc3, 0xc3,
+	0xc3, 0xc3,
+	0xc3, 0xc3
+};
+
+// Tile tl_tileset02_037: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_037[2 * 4] = {
+	0x03, 0xc3,
+	0xc3, 0xd3,
+	0xc3, 0xd3,
+	0xc3, 0xd3
+};
+
+// Tile tl_tileset02_038: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_038[2 * 4] = {
+	0xc3, 0xd7,
+	0x33, 0x57,
+	0x33, 0x63,
+	0x33, 0x23
+};
+
+// Tile tl_tileset02_039: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_039[2 * 4] = {
+	0x03, 0xff,
+	0x82, 0x57,
+	0xaa, 0x57,
+	0xeb, 0x57
+};
+
+// Tile tl_tileset02_040: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_040[2 * 4] = {
+	0x93, 0x33,
+	0xaa, 0x33,
+	0xab, 0x33,
+	0xd7, 0x33
+};
+
+// Tile tl_tileset02_041: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_041[2 * 4] = {
+	0xc3, 0xc3,
+	0xc3, 0xc3,
+	0xc3, 0xc3,
+	0xc3, 0xc3
+};
+
+// Tile tl_tileset02_042: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_042[2 * 4] = {
+	0xaa, 0x00,
+	0xd7, 0xff,
+	0xc3, 0xc3,
+	0xc3, 0xc3
+};
+
+// Tile tl_tileset02_043: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_043[2 * 4] = {
+	0xeb, 0xc3,
+	0xeb, 0xc3,
+	0xc3, 0xc3,
+	0xc3, 0xc3
+};
+
+// Tile tl_tileset02_044: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_044[2 * 4] = {
+	0xd7, 0xd7,
+	0xc3, 0xff,
+	0xc3, 0xff,
+	0xc3, 0x55
+};
+
+// Tile tl_tileset02_045: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_045[2 * 4] = {
+	0xd7, 0x57,
+	0x57, 0xd7,
+	0x63, 0xff,
+	0x23, 0xeb
+};
+
+// Tile tl_tileset02_046: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_046[2 * 4] = {
+	0x57, 0x02,
+	0x63, 0xaa,
+	0x01, 0xeb,
+	0x00, 0xd7
+};
+
+// Tile tl_tileset02_047: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_047[2 * 4] = {
+	0xc3, 0xc3,
+	0x00, 0x00,
+	0x3f, 0x2a,
+	0x3f, 0x2a
+};
+
+// Tile tl_tileset02_048: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_048[2 * 4] = {
+	0xc3, 0xc3,
+	0x00, 0x00,
+	0x3f, 0x3f,
+	0x3f, 0x3f
+};
+
+// Tile tl_tileset02_049: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_049[2 * 4] = {
+	0xc3, 0xc3,
+	0x00, 0x41,
+	0x3f, 0x41,
+	0x3f, 0x41
+};
+
+// Tile tl_tileset02_050: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_050[2 * 4] = {
+	0x33, 0xd7,
+	0x33, 0x77,
+	0x33, 0x63,
+	0x33, 0x23
+};
+
+// Tile tl_tileset02_051: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_051[2 * 4] = {
+	0x00, 0x57,
+	0x82, 0x41,
+	0xbb, 0x01,
+	0xeb, 0x00
+};
+
+// Tile tl_tileset02_052: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_052[2 * 4] = {
+	0x93, 0x33,
+	0xbb, 0x33,
+	0xeb, 0x33,
+	0xd7, 0x33
+};
+
+// Tile tl_tileset02_053: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_053[2 * 4] = {
+	0x3f, 0x2a,
+	0x3f, 0x2a,
+	0x3f, 0x2a,
+	0x3f, 0x2a
+};
+
+// Tile tl_tileset02_054: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_054[2 * 4] = {
+	0x3f, 0x3f,
+	0x3f, 0x3f,
+	0x3f, 0x3f,
+	0x3f, 0x3f
+};
+
+// Tile tl_tileset02_055: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_055[2 * 4] = {
+	0x3f, 0x41,
+	0x3f, 0x41,
+	0x3f, 0x2a,
+	0x3f, 0x2a
+};
+
+// Tile tl_tileset02_056: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_056[2 * 4] = {
+	0x33, 0x63,
+	0x33, 0x63,
+	0x33, 0x77,
+	0x33, 0x77
+};
+
+// Tile tl_tileset02_057: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_057[2 * 4] = {
+	0xd7, 0x00,
+	0x57, 0x82,
+	0x57, 0x82,
+	0x23, 0xc3
+};
+
+// Tile tl_tileset02_058: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_058[2 * 4] = {
+	0x57, 0x13,
+	0x63, 0xbb,
+	0x01, 0xeb,
+	0x00, 0xd7
+};
+
+// Tile tl_tileset02_059: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_059[2 * 4] = {
+	0x33, 0x33,
+	0x33, 0x33,
+	0x33, 0x33,
+	0x11, 0x33
+};
+
+// Tile tl_tileset02_060: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_060[2 * 4] = {
+	0x3f, 0x3f,
+	0x3f, 0x3f,
+	0x3f, 0x3f,
+	0x3f, 0x00
+};
+
+// Tile tl_tileset02_061: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_061[2 * 4] = {
+	0x3f, 0x3f,
+	0x3f, 0x2a,
+	0x00, 0x15,
+	0x3f, 0x3f
+};
+
+// Tile tl_tileset02_062: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_062[2 * 4] = {
+	0x3f, 0x3f,
+	0x00, 0x00,
+	0x3f, 0x3f,
+	0x3f, 0x3f
+};
+
+// Tile tl_tileset02_063: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_063[2 * 4] = {
+	0x3f, 0x3f,
+	0x00, 0x00,
+	0x3f, 0x3f,
+	0x3f, 0x3f
+};
+
+// Tile tl_tileset02_064: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_064[2 * 4] = {
+	0x3f, 0x3f,
+	0x00, 0x00,
+	0x3f, 0x3f,
+	0x3f, 0x3f
+};
+
+// Tile tl_tileset02_065: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_065[2 * 4] = {
+	0x3f, 0x3f,
+	0x00, 0x00,
+	0x3f, 0x3f,
+	0x3f, 0x3f
+};
+
+// Tile tl_tileset02_066: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_066[2 * 4] = {
+	0x3f, 0x2a,
+	0x00, 0x00,
+	0x3f, 0x3f,
+	0x3f, 0x3f
+};
+
+// Tile tl_tileset02_067: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_067[2 * 4] = {
+	0xc3, 0xc3,
+	0xc3, 0xc3,
+	0x41, 0xc3,
+	0x41, 0xc3
+};
+
+// Tile tl_tileset02_068: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_068[2 * 4] = {
+	0x33, 0x77,
+	0x33, 0x77,
+	0x33, 0x77,
+	0x33, 0x77
+};
+
+// Tile tl_tileset02_069: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_069[2 * 4] = {
+	0x23, 0xd7,
+	0x63, 0x57,
+	0xd7, 0x41,
+	0xd7, 0x01
+};
+
+// Tile tl_tileset02_070: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_070[2 * 4] = {
+	0xd7, 0x57,
+	0xc3, 0xd7,
+	0xab, 0x57,
+	0xeb, 0x01
+};
+
+// Tile tl_tileset02_071: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_071[2 * 4] = {
+	0x33, 0x33,
+	0x33, 0x33,
+	0x33, 0x33,
+	0x11, 0x33
+};
+
+// Tile tl_tileset02_072: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_072[2 * 4] = {
+	0x3f, 0x3f,
+	0x3f, 0x00,
+	0x00, 0x3f,
+	0x3f, 0x3f
+};
+
+// Tile tl_tileset02_073: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_073[2 * 4] = {
+	0x00, 0x3f,
+	0x3f, 0x3f,
+	0x3f, 0x3f,
+	0x3f, 0x3f
+};
+
+// Tile tl_tileset02_074: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_074[2 * 4] = {
+	0x41, 0xc3,
+	0x41, 0xc3,
+	0x2a, 0xc3,
+	0x2a, 0xc3
+};
+
+// Tile tl_tileset02_075: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_075[2 * 4] = {
+	0xff, 0x22,
+	0xd7, 0x22,
+	0x55, 0x33,
+	0x80, 0x33
+};
+
+// Tile tl_tileset02_076: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_076[2 * 4] = {
+	0xd7, 0x41,
+	0x57, 0x83,
+	0x41, 0xeb,
+	0x23, 0xab
+};
+
+// Tile tl_tileset02_077: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_077[2 * 4] = {
+	0x11, 0x33,
+	0xb9, 0x33,
+	0xb9, 0x33,
+	0x11, 0x33
+};
+
+// Tile tl_tileset02_078: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_078[2 * 4] = {
+	0x3f, 0x3f,
+	0x3f, 0x2a,
+	0x3f, 0x15,
+	0x2a, 0x3f
+};
+
+// Tile tl_tileset02_079: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_079[2 * 4] = {
+	0x2a, 0x3f,
+	0x15, 0x3f,
+	0x3f, 0x3f,
+	0x3f, 0x3f
+};
+
+// Tile tl_tileset02_080: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_080[2 * 4] = {
+	0x2a, 0xc3,
+	0x2a, 0xc3,
+	0x3f, 0x41,
+	0x3f, 0x41
+};
+
+// Tile tl_tileset02_081: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_081[2 * 4] = {
+	0xd3, 0x62,
+	0xc3, 0xe2,
+	0xc3, 0xe2,
+	0xc3, 0xe2
+};
+
+// Tile tl_tileset02_082: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_082[2 * 4] = {
+	0x80, 0x33,
+	0xc0, 0x33,
+	0xc0, 0x33,
+	0xc0, 0x33
+};
+
+// Tile tl_tileset02_083: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_083[2 * 4] = {
+	0x33, 0xd7,
+	0x33, 0x57,
+	0x33, 0xd7,
+	0x33, 0xc3
+};
+
+// Tile tl_tileset02_084: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_084[2 * 4] = {
+	0xb9, 0x33,
+	0xb9, 0x33,
+	0x93, 0x33,
+	0xbb, 0x33
+};
+
+// Tile tl_tileset02_085: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_085[2 * 4] = {
+	0x15, 0x3f,
+	0x3f, 0x3f,
+	0x3f, 0x3f,
+	0x3f, 0x3f
+};
+
+// Tile tl_tileset02_086: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_086[2 * 4] = {
+	0x33, 0xbb,
+	0x33, 0x11,
+	0x33, 0x91,
+	0x33, 0x93
+};
+
+// Tile tl_tileset02_087: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_087[2 * 4] = {
+	0xbb, 0x33,
+	0xbb, 0x33,
+	0xbb, 0x33,
+	0xbb, 0x33
+};
+
+// Tile tl_tileset02_088: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_088[2 * 4] = {
+	0x3f, 0x3f,
+	0x3f, 0x2a,
+	0x3f, 0x3f,
+	0x3f, 0x15
+};
+
+// Tile tl_tileset02_089: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_089[2 * 4] = {
+	0x3f, 0x2a,
+	0x3f, 0x2a,
+	0x3f, 0x3f,
+	0x3f, 0x3f
+};
+
+// Tile tl_tileset02_090: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_090[2 * 4] = {
+	0x33, 0x91,
+	0x33, 0x91,
+	0x33, 0x80,
+	0x33, 0x80
+};
+
+// Tile tl_tileset02_091: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_091[2 * 4] = {
+	0x11, 0x33,
+	0xc0, 0x33,
+	0xc3, 0x33,
+	0xc0, 0x33
+};
+
+// Tile tl_tileset02_092: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_092[2 * 4] = {
+	0x3f, 0x3f,
+	0x2a, 0x3f,
+	0x3f, 0x3f,
+	0x15, 0x3f
+};
+
+// Tile tl_tileset02_093: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_093[2 * 4] = {
+	0x3f, 0x3f,
+	0x3f, 0x3f,
+	0x3f, 0x2a,
+	0x3f, 0x2a
+};
+
+// Tile tl_tileset02_094: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_094[2 * 4] = {
+	0x3f, 0x3f,
+	0x3f, 0x3f,
+	0x00, 0x00,
+	0xf3, 0xf3
+};
+
+// Tile tl_tileset02_095: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_095[2 * 4] = {
+	0x41, 0xc3,
+	0x41, 0xc3,
+	0x00, 0xc3,
+	0xa2, 0xc3
+};
+
+// Tile tl_tileset02_096: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_096[2 * 4] = {
+	0xc3, 0xc2,
+	0xc3, 0xc2,
+	0xc3, 0xc2,
+	0xc3, 0xc0
+};
+
+// Tile tl_tileset02_097: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_097[2 * 4] = {
+	0x33, 0xc1,
+	0x33, 0x80,
+	0x33, 0x80,
+	0x33, 0x93
+};
+
+// Tile tl_tileset02_098: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_098[2 * 4] = {
+	0xc0, 0x33,
+	0xc0, 0x33,
+	0xc0, 0x33,
+	0xc0, 0x33
+};
+
+// Tile tl_tileset02_099: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_099[2 * 4] = {
+	0x3f, 0x2a,
+	0x00, 0x00,
+	0xf3, 0xf3,
+	0xf3, 0xf3
+};
+
+// Tile tl_tileset02_100: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_100[2 * 4] = {
+	0x3f, 0x3f,
+	0x00, 0x00,
+	0xf3, 0xf3,
+	0xf3, 0xf3
+};
+
+// Tile tl_tileset02_101: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_101[2 * 4] = {
+	0x3f, 0x3f,
+	0x3f, 0x3f,
+	0x15, 0x15,
+	0xf3, 0xa2
+};
+
+// Tile tl_tileset02_102: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_102[2 * 4] = {
+	0x3f, 0x3f,
+	0x3f, 0x3f,
+	0x3f, 0x3f,
+	0x15, 0x3f
+};
+
+// Tile tl_tileset02_103: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_103[2 * 4] = {
+	0x3f, 0x3f,
+	0x3f, 0x3f,
+	0x3f, 0x00,
+	0x00, 0x3f
+};
+
+// Tile tl_tileset02_104: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_104[2 * 4] = {
+	0x3f, 0x2a,
+	0x2a, 0x00,
+	0x15, 0x2a,
+	0x3f, 0x3f
+};
+
+// Tile tl_tileset02_105: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_105[2 * 4] = {
+	0xf3, 0xf3,
+	0x00, 0x00,
+	0x51, 0xf3,
+	0x51, 0xf3
+};
+
+// Tile tl_tileset02_106: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_106[2 * 4] = {
+	0xf3, 0xf3,
+	0x00, 0x00,
+	0xf3, 0xf3,
+	0xf3, 0xf3
+};
+
+// Tile tl_tileset02_107: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_107[2 * 4] = {
+	0xf3, 0xf3,
+	0x00, 0x00,
+	0x00, 0xf3,
+	0xf3, 0x00
+};
+
+// Tile tl_tileset02_108: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_108[2 * 4] = {
+	0xf3, 0xf3,
+	0x00, 0x00,
+	0xf3, 0xf3,
+	0xf3, 0xf3
+};
+
+// Tile tl_tileset02_109: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_109[2 * 4] = {
+	0xa2, 0xc3,
+	0x00, 0x41,
+	0xf3, 0x41,
+	0xf3, 0x41
+};
+
+// Tile tl_tileset02_110: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_110[2 * 4] = {
+	0xc3, 0xc0,
+	0xc3, 0xc0,
+	0xd6, 0xc0,
+	0x82, 0xc0
+};
+
+// Tile tl_tileset02_111: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_111[2 * 4] = {
+	0xc0, 0x93,
+	0xc0, 0xc0,
+	0xc0, 0xc0,
+	0xc0, 0x80
+};
+
+// Tile tl_tileset02_112: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_112[2 * 4] = {
+	0x33, 0x91,
+	0xc0, 0x91,
+	0xc0, 0x03,
+	0x00, 0x40
+};
+
+// Tile tl_tileset02_113: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_113[2 * 4] = {
+	0x62, 0x91,
+	0x62, 0x91,
+	0x62, 0x91,
+	0x62, 0x91
+};
+
+// Tile tl_tileset02_114: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_114[2 * 4] = {
+	0xf3, 0xf3,
+	0xf3, 0xf3,
+	0xf3, 0xf3,
+	0xf3, 0xf3
+};
+
+// Tile tl_tileset02_115: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_115[2 * 4] = {
+	0xf3, 0xf3,
+	0xf3, 0xf3,
+	0xf3, 0xf3,
+	0xf3, 0xf3
+};
+
+// Tile tl_tileset02_116: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_116[2 * 4] = {
+	0xf3, 0xf3,
+	0xf3, 0xf3,
+	0xf3, 0xf3,
+	0xf3, 0xf3
+};
+
+// Tile tl_tileset02_117: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_117[2 * 4] = {
+	0xf3, 0x15,
+	0xf3, 0xa2,
+	0xf3, 0xf3,
+	0xf3, 0xf3
+};
+
+// Tile tl_tileset02_118: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_118[2 * 4] = {
+	0x3f, 0x3f,
+	0x3f, 0x3f,
+	0x15, 0x3f,
+	0xa2, 0x3f
+};
+
+// Tile tl_tileset02_119: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_119[2 * 4] = {
+	0x3f, 0x2a,
+	0x3f, 0x15,
+	0x2a, 0x3f,
+	0x15, 0x3f
+};
+
+// Tile tl_tileset02_120: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_120[2 * 4] = {
+	0x51, 0xf3,
+	0x51, 0xf3,
+	0x51, 0xf3,
+	0x51, 0xf3
+};
+
+// Tile tl_tileset02_121: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_121[2 * 4] = {
+	0xf3, 0xf3,
+	0xf3, 0xf3,
+	0xf3, 0xf3,
+	0xf3, 0xf3
+};
+
+// Tile tl_tileset02_122: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_122[2 * 4] = {
+	0x51, 0xf3,
+	0xa2, 0xf3,
+	0xf3, 0x51,
+	0xf3, 0xa2
+};
+
+// Tile tl_tileset02_123: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_123[2 * 4] = {
+	0xf3, 0x41,
+	0xf3, 0x00,
+	0xf3, 0xa2,
+	0xf3, 0xa2
+};
+
+// Tile tl_tileset02_124: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_124[2 * 4] = {
+	0x82, 0xc0,
+	0x82, 0xc0,
+	0x82, 0xc0,
+	0xc3, 0xc0
+};
+
+// Tile tl_tileset02_125: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_125[2 * 4] = {
+	0xc1, 0xc0,
+	0xc0, 0xc0,
+	0xc0, 0xc0,
+	0xc0, 0xc0
+};
+
+// Tile tl_tileset02_126: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_126[2 * 4] = {
+	0xc0, 0xc0,
+	0xc0, 0xc0,
+	0xc0, 0xc0,
+	0xc0, 0xc0
+};
+
+// Tile tl_tileset02_127: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_127[2 * 4] = {
+	0x42, 0x91,
+	0xc0, 0x91,
+	0xc0, 0x91,
+	0x01, 0x91
+};
+
+// Tile tl_tileset02_128: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_128[2 * 4] = {
+	0xf3, 0xf3,
+	0xf3, 0xf7,
+	0x00, 0x00,
+	0x3f, 0x2a
+};
+
+// Tile tl_tileset02_129: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_129[2 * 4] = {
+	0xf3, 0xf3,
+	0xf3, 0xf3,
+	0x00, 0xf3,
+	0x3f, 0x00
+};
+
+// Tile tl_tileset02_130: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_130[2 * 4] = {
+	0xf3, 0xf3,
+	0xf3, 0xf3,
+	0xf3, 0xf3,
+	0xf3, 0xf3
+};
+
+// Tile tl_tileset02_131: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_131[2 * 4] = {
+	0xf3, 0xf3,
+	0xf3, 0xf3,
+	0xf3, 0xf3,
+	0xf3, 0xf3
+};
+
+// Tile tl_tileset02_132: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_132[2 * 4] = {
+	0xf3, 0x15,
+	0xf3, 0xb7,
+	0xf3, 0xa2,
+	0xf3, 0xf3
+};
+
+// Tile tl_tileset02_133: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_133[2 * 4] = {
+	0x3f, 0x2a,
+	0x3f, 0x3f,
+	0x3f, 0x15,
+	0x3f, 0x3f
+};
+
+// Tile tl_tileset02_134: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_134[2 * 4] = {
+	0x2a, 0xf3,
+	0x2a, 0xf3,
+	0x2a, 0xf3,
+	0x2a, 0xf3
+};
+
+// Tile tl_tileset02_135: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_135[2 * 4] = {
+	0x51, 0xf3,
+	0xf3, 0xf3,
+	0xa2, 0xf3,
+	0xf3, 0xf3
+};
+
+// Tile tl_tileset02_136: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_136[2 * 4] = {
+	0xf3, 0xa2,
+	0xf3, 0xa2,
+	0xf3, 0xf3,
+	0xf3, 0xf3
+};
+
+// Tile tl_tileset02_137: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_137[2 * 4] = {
+	0xc3, 0xc3,
+	0x41, 0xc3,
+	0x41, 0xc3,
+	0x41, 0xc3
+};
+
+// Tile tl_tileset02_138: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_138[2 * 4] = {
+	0xc3, 0x40,
+	0xc3, 0x40,
+	0xc3, 0x40,
+	0xc3, 0x82
+};
+
+// Tile tl_tileset02_139: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_139[2 * 4] = {
+	0xc0, 0xc0,
+	0xc0, 0xc0,
+	0xc0, 0xc0,
+	0xc0, 0xc0
+};
+
+// Tile tl_tileset02_140: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_140[2 * 4] = {
+	0x00, 0xc0,
+	0x22, 0xc0,
+	0x00, 0xc0,
+	0x33, 0xc3
+};
+
+// Tile tl_tileset02_141: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_141[2 * 4] = {
+	0x51, 0xf3,
+	0x51, 0xf3,
+	0xf3, 0xf3,
+	0xf3, 0xf3
+};
+
+// Tile tl_tileset02_142: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_142[2 * 4] = {
+	0xf3, 0xf3,
+	0xf3, 0xf3,
+	0xf3, 0xf3,
+	0xf3, 0xf3
+};
+
+// Tile tl_tileset02_143: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_143[2 * 4] = {
+	0xf3, 0xf3,
+	0xf3, 0xf3,
+	0xf3, 0xf3,
+	0xf3, 0xf7
+};
+
+// Tile tl_tileset02_144: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_144[2 * 4] = {
+	0x2a, 0x3f,
+	0x2a, 0x3f,
+	0x2a, 0x3f,
+	0x3f, 0x3f
+};
+
+// Tile tl_tileset02_145: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_145[2 * 4] = {
+	0x2a, 0xf3,
+	0x2a, 0xf3,
+	0x3f, 0x51,
+	0x3f, 0x51
+};
+
+// Tile tl_tileset02_146: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_146[2 * 4] = {
+	0xf3, 0x51,
+	0xf3, 0x51,
+	0xf3, 0x51,
+	0xf3, 0xf3
+};
+
+// Tile tl_tileset02_147: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_147[2 * 4] = {
+	0x41, 0xc3,
+	0x00, 0xc3,
+	0xa2, 0xc3,
+	0xa2, 0xc3
+};
+
+// Tile tl_tileset02_148: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_148[2 * 4] = {
+	0xc3, 0x82,
+	0xc3, 0x82,
+	0xc3, 0x82,
+	0xc3, 0xc3
+};
+
+// Tile tl_tileset02_149: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_149[2 * 4] = {
+	0xc0, 0xc0,
+	0xc0, 0xc0,
+	0xc0, 0xc0,
+	0x40, 0x03
+};
+
+// Tile tl_tileset02_150: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_150[2 * 4] = {
+	0x00, 0x00,
+	0xc0, 0xc0,
+	0xc0, 0xc0,
+	0xc0, 0xc0
+};
+
+// Tile tl_tileset02_151: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_151[2 * 4] = {
+	0x22, 0xc0,
+	0xc0, 0xc0,
+	0xc0, 0xc0,
+	0xc0, 0xc0
+};
+
+// Tile tl_tileset02_152: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_152[2 * 4] = {
+	0x22, 0xd7,
+	0x13, 0x22,
+	0x80, 0x33,
+	0x91, 0x33
+};
+
+// Tile tl_tileset02_153: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_153[2 * 4] = {
+	0x00, 0x00,
+	0xf3, 0xf3,
+	0xf3, 0xf3,
+	0xf3, 0xf3
+};
+
+// Tile tl_tileset02_154: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_154[2 * 4] = {
+	0x00, 0xf3,
+	0xf3, 0xf3,
+	0xf3, 0xf3,
+	0xf3, 0xf3
+};
+
+// Tile tl_tileset02_155: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_155[2 * 4] = {
+	0xf3, 0xf3,
+	0xf3, 0xf3,
+	0xf3, 0xf3,
+	0xf3, 0xf3
+};
+
+// Tile tl_tileset02_156: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_156[2 * 4] = {
+	0xf3, 0xf3,
+	0xf3, 0xf3,
+	0xf3, 0xf3,
+	0xf3, 0xf3
+};
+
+// Tile tl_tileset02_157: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_157[2 * 4] = {
+	0xf3, 0xa2,
+	0xf3, 0xbf,
+	0xf3, 0x15,
+	0xa2, 0x3f
+};
+
+// Tile tl_tileset02_158: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_158[2 * 4] = {
+	0x3f, 0x15,
+	0x3f, 0x3f,
+	0x3f, 0x2a,
+	0x3f, 0x3f
+};
+
+// Tile tl_tileset02_159: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_159[2 * 4] = {
+	0x3f, 0x51,
+	0x3f, 0x51,
+	0x3f, 0x51,
+	0x3f, 0x51
+};
+
+// Tile tl_tileset02_160: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_160[2 * 4] = {
+	0xf3, 0xf3,
+	0xf3, 0xf3,
+	0xf3, 0xf3,
+	0xf3, 0xa2
+};
+
+// Tile tl_tileset02_161: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_161[2 * 4] = {
+	0xa2, 0xf3,
+	0xf3, 0xf3,
+	0x51, 0xf3,
+	0xf3, 0xf3
+};
+
+// Tile tl_tileset02_162: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_162[2 * 4] = {
+	0xa2, 0xc3,
+	0xa2, 0x41,
+	0xf3, 0x41,
+	0xf3, 0x41
+};
+
+// Tile tl_tileset02_163: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_163[2 * 4] = {
+	0x40, 0x00,
+	0xe8, 0xc0,
+	0x00, 0xc0,
+	0x82, 0xc0
+};
+
+// Tile tl_tileset02_164: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_164[2 * 4] = {
+	0x00, 0x00,
+	0xc0, 0xc0,
+	0xc0, 0xc0,
+	0xc0, 0xc0
+};
+
+// Tile tl_tileset02_165: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_165[2 * 4] = {
+	0x00, 0x00,
+	0xc0, 0xc0,
+	0xc0, 0xc0,
+	0xc0, 0xc0
+};
+
+// Tile tl_tileset02_166: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_166[2 * 4] = {
+	0xc2, 0x22,
+	0x40, 0x80,
+	0xc1, 0xd5,
+	0x80, 0x80
+};
+
+// Tile tl_tileset02_167: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_167[2 * 4] = {
+	0xf3, 0xf3,
+	0xf3, 0xf3,
+	0xf3, 0xf3,
+	0xf3, 0xf3
+};
+
+// Tile tl_tileset02_168: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_168[2 * 4] = {
+	0xf3, 0xf3,
+	0xf3, 0xf3,
+	0xf3, 0xf3,
+	0xf3, 0xf3
+};
+
+// Tile tl_tileset02_169: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_169[2 * 4] = {
+	0xf3, 0xf3,
+	0xf3, 0xf3,
+	0xf3, 0xf3,
+	0xf3, 0xa2
+};
+
+// Tile tl_tileset02_170: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_170[2 * 4] = {
+	0xf3, 0xf3,
+	0xf3, 0xa2,
+	0xf7, 0x15,
+	0x00, 0x3f
+};
+
+// Tile tl_tileset02_171: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_171[2 * 4] = {
+	0x3f, 0x2a,
+	0x3f, 0x3f,
+	0x3f, 0x3f,
+	0x3f, 0x3f
+};
+
+// Tile tl_tileset02_172: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_172[2 * 4] = {
+	0x3f, 0x3f,
+	0x3f, 0x3f,
+	0x15, 0x3f,
+	0x15, 0x3f
+};
+
+// Tile tl_tileset02_173: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_173[2 * 4] = {
+	0x2a, 0x3f,
+	0x3f, 0x15,
+	0x3f, 0x2a,
+	0x3f, 0x3f
+};
+
+// Tile tl_tileset02_174: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_174[2 * 4] = {
+	0x3f, 0x3f,
+	0x3f, 0x3f,
+	0x3f, 0x3f,
+	0x00, 0x3f
+};
+
+// Tile tl_tileset02_175: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_175[2 * 4] = {
+	0x3f, 0x51,
+	0x3f, 0x51,
+	0x3f, 0x2a,
+	0x3f, 0x2a
+};
+
+// Tile tl_tileset02_176: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_176[2 * 4] = {
+	0xf3, 0xf3,
+	0xf3, 0xf3,
+	0xf3, 0xf7,
+	0xf3, 0x00
+};
+
+// Tile tl_tileset02_177: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_177[2 * 4] = {
+	0xf3, 0x51,
+	0xa2, 0xf3,
+	0x51, 0xf3,
+	0xf3, 0xf3
+};
+
+// Tile tl_tileset02_178: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_178[2 * 4] = {
+	0xf3, 0x41,
+	0xf3, 0x00,
+	0xf3, 0xa2,
+	0xf3, 0xa2
+};
+
+// Tile tl_tileset02_179: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_179[2 * 4] = {
+	0x82, 0x00,
+	0x82, 0x00,
+	0xc3, 0xc3,
+	0xc3, 0xc3
+};
+
+// Tile tl_tileset02_180: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_180[2 * 4] = {
+	0x00, 0x00,
+	0x00, 0x00,
+	0x33, 0x33,
+	0x33, 0x33
+};
+
+// Tile tl_tileset02_181: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_181[2 * 4] = {
+	0xf3, 0xf3,
+	0x00, 0x00,
+	0x3f, 0x2a,
+	0x3f, 0x2a
+};
+
+// Tile tl_tileset02_182: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_182[2 * 4] = {
+	0xf3, 0xf3,
+	0x00, 0x00,
+	0x3f, 0x3f,
+	0x3f, 0x3f
+};
+
+// Tile tl_tileset02_183: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_183[2 * 4] = {
+	0x3f, 0x3f,
+	0x3f, 0x3f,
+	0x2a, 0x3f,
+	0x3f, 0x3f
+};
+
+// Tile tl_tileset02_184: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_184[2 * 4] = {
+	0x3f, 0x00,
+	0x3f, 0x3f,
+	0x3f, 0x3f,
+	0x3f, 0x3f
+};
+
+// Tile tl_tileset02_185: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_185[2 * 4] = {
+	0x15, 0x3f,
+	0x2a, 0x00,
+	0x3f, 0x3f,
+	0x3f, 0x3f
+};
+
+// Tile tl_tileset02_186: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_186[2 * 4] = {
+	0x3f, 0x2a,
+	0x00, 0x00,
+	0x3f, 0x2a,
+	0x3f, 0x3f
+};
+
+// Tile tl_tileset02_187: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_187[2 * 4] = {
+	0xf3, 0xa2,
+	0xf3, 0x51,
+	0x00, 0x00,
+	0x51, 0xf3
+};
+
+// Tile tl_tileset02_188: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_188[2 * 4] = {
+	0x00, 0xf3,
+	0xf3, 0xf3,
+	0x00, 0x00,
+	0xf3, 0xf3
+};
+
+// Tile tl_tileset02_189: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_189[2 * 4] = {
+	0xf3, 0xf3,
+	0xf3, 0xf3,
+	0x00, 0x00,
+	0xf3, 0xf3
+};
+
+// Tile tl_tileset02_190: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_190[2 * 4] = {
+	0xf3, 0xf3,
+	0xf3, 0xf3,
+	0x00, 0x00,
+	0xf3, 0xf7
+};
+
+// Tile tl_tileset02_191: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_191[2 * 4] = {
+	0xf3, 0xa2,
+	0xf3, 0xa2,
+	0x00, 0x00,
+	0xf3, 0xf3
+};
+
+// Tile tl_tileset02_192: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_192[2 * 4] = {
+	0xc3, 0xc3,
+	0x41, 0xc3,
+	0x41, 0xc3,
+	0x41, 0xc3
+};
+
+// Tile tl_tileset02_193: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_193[2 * 4] = {
+	0x51, 0xf3,
+	0x51, 0xf3,
+	0x00, 0x00,
+	0x3f, 0x3f
+};
+
+// Tile tl_tileset02_194: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_194[2 * 4] = {
+	0xf3, 0xf3,
+	0xf3, 0xf3,
+	0x00, 0x00,
+	0x2a, 0x15
+};
+
+// Tile tl_tileset02_195: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_195[2 * 4] = {
+	0xf3, 0xf3,
+	0xf3, 0xf3,
+	0x00, 0x00,
+	0x3f, 0x3f
+};
+
+// Tile tl_tileset02_196: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_196[2 * 4] = {
+	0xf3, 0xf3,
+	0xf3, 0xf3,
+	0x00, 0x00,
+	0x3f, 0x2a
+};
+
+// Tile tl_tileset02_197: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_197[2 * 4] = {
+	0xf3, 0xf3,
+	0xf3, 0xf3,
+	0x00, 0x00,
+	0x15, 0x3f
+};
+
+// Tile tl_tileset02_198: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_198[2 * 4] = {
+	0x41, 0xc3,
+	0x00, 0xc3,
+	0x00, 0xc3,
+	0x2a, 0xc3
+};
+
+// Tile tl_tileset02_199: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_199[2 * 4] = {
+	0x15, 0x3f,
+	0x3f, 0x3f,
+	0x2a, 0x3f,
+	0x3f, 0x3f
+};
+
+// Tile tl_tileset02_200: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_200[2 * 4] = {
+	0x3f, 0x15,
+	0x3f, 0x2a,
+	0x3f, 0x2a,
+	0x3f, 0x3f
+};
+
+// Tile tl_tileset02_201: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_201[2 * 4] = {
+	0x2a, 0x3f,
+	0x3f, 0x3f,
+	0x3f, 0x15,
+	0x3f, 0x2a
+};
+
+// Tile tl_tileset02_202: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_202[2 * 4] = {
+	0x15, 0x3f,
+	0x2a, 0x3f,
+	0x3f, 0x15,
+	0x3f, 0x3f
+};
+
+// Tile tl_tileset02_203: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_203[2 * 4] = {
+	0x3f, 0x3f,
+	0x15, 0x3f,
+	0x2a, 0x3f,
+	0x3f, 0x15
+};
+
+// Tile tl_tileset02_204: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_204[2 * 4] = {
+	0x15, 0x3f,
+	0x2a, 0x3f,
+	0x3f, 0x15,
+	0x3f, 0x2a
+};
+
+// Tile tl_tileset02_205: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_205[2 * 4] = {
+	0xd3, 0x33,
+	0xc3, 0xb3,
+	0xc3, 0xb3,
+	0xc3, 0xb3
+};
+
+// Tile tl_tileset02_206: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_206[2 * 4] = {
+	0x15, 0x3f,
+	0x2a, 0x15,
+	0x3f, 0x2a,
+	0x3f, 0x3f
+};
+
+// Tile tl_tileset02_207: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_207[2 * 4] = {
+	0xc3, 0xd3,
+	0xc3, 0xc3,
+	0xc3, 0xc3,
+	0xc3, 0xc3
+};
+
+// Tile tl_tileset02_208: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_208[2 * 4] = {
+	0x3f, 0x15,
+	0x3f, 0x2a,
+	0x3f, 0x3f,
+	0x3f, 0x3f
+};
+
+// Tile tl_tileset02_209: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_209[2 * 4] = {
+	0x3f, 0x3f,
+	0x15, 0x3f,
+	0x2a, 0x15,
+	0x3f, 0x2a
+};
+
+// Tile tl_tileset02_210: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_210[2 * 4] = {
+	0xb3, 0x33,
+	0xd3, 0x33,
+	0xd3, 0x33,
+	0xd3, 0x33
+};
+
+// Tile tl_tileset02_211: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_211[2 * 4] = {
+	0x2a, 0x15,
+	0x3f, 0x2a,
+	0x3f, 0x3f,
+	0x3f, 0x3f
+};
+
+// Tile tl_tileset02_212: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_212[2 * 4] = {
+	0x3f, 0x3f,
+	0x00, 0x3f,
+	0x3f, 0x00,
+	0x3f, 0x3f
+};
+
+// Tile tl_tileset02_213: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_213[2 * 4] = {
+	0x3f, 0x3f,
+	0x3f, 0x3f,
+	0x15, 0x3f,
+	0x2a, 0x00
+};
+
+// Tile tl_tileset02_214: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_214[2 * 4] = {
+	0x3f, 0x3f,
+	0x3f, 0x3f,
+	0x3f, 0x3f,
+	0x00, 0x00
+};
+
+// Tile tl_tileset02_215: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_215[2 * 4] = {
+	0x2a, 0xc3,
+	0x2a, 0xc3,
+	0x3f, 0x41,
+	0x00, 0x41
+};
+
+// Tile tl_tileset02_216: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_216[2 * 4] = {
+	0xc3, 0xb3,
+	0xc3, 0xd3,
+	0xc3, 0xd3,
+	0xc3, 0xd3
+};
+
+// Tile tl_tileset02_217: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_217[2 * 4] = {
+	0x3f, 0x2a,
+	0x3f, 0x2a,
+	0x3f, 0x2a,
+	0x00, 0x00
+};
+
+// Tile tl_tileset02_218: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_218[2 * 4] = {
+	0x41, 0xc3,
+	0x41, 0xc3,
+	0x2a, 0xc3,
+	0x00, 0xc3
+};
+
+// Tile tl_tileset02_219: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_219[2 * 4] = {
+	0x00, 0x00,
+	0x00, 0x00,
+	0x00, 0x00,
+	0x00, 0x00
+};
+
+// Tile tl_tileset02_220: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_220[2 * 4] = {
+	0x00, 0x00,
+	0x00, 0x00,
+	0x00, 0x00,
+	0x00, 0x00
+};
+
+// Tile tl_tileset02_221: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_221[2 * 4] = {
+	0x00, 0x00,
+	0x00, 0x00,
+	0x00, 0x00,
+	0x00, 0x00
+};
+
+// Tile tl_tileset02_222: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_222[2 * 4] = {
+	0x00, 0x00,
+	0x00, 0x00,
+	0x00, 0x00,
+	0x00, 0x00
+};
+
+// Tile tl_tileset02_223: 4x4 pixels, 2x4 bytes.
+const u8 tl_tileset02_223[2 * 4] = {
+	0x00, 0x00,
+	0x00, 0x00,
+	0x00, 0x00,
+	0x00, 0x00
+};
+
