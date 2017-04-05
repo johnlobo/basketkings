@@ -69,6 +69,7 @@ PAL={ 0 1 15 20 6 2 8 9 12 14 5 18 3 24 11 26 }
 ##	  hardware colour values.
 
 #$(eval $(call IMG2SPRITES,img/example.png,0,pre,24,12,$(PALETTE),mask,src/,hwpalette))
-$(eval $(call IMG2SPRITES,assets/player01.png,0,sp,12,24,$(PAL),,src/sprites,hwpalette))
-$(eval $(call IMG2SPRITES,assets/player04.png,0,sp,24,36,$(PAL),,src/sprites,))
+$(eval $(call IMG2SPRITES,assets/player01.png,0,sp,12,24,$(PAL),,src/sprites,))
+$(eval $(call IMG2SPRITES,assets/player04.png,0,sp,24,36,$(PAL),,src/sprites,hwpalette))
+$(eval $(call IMG2SPRITES,assets/bball.png,0,sp,6,9,$(PAL),,src/sprites,))
 $(eval $(call IMG2SPRITES,assets/tileset02.png,0,tl,4,4,$(PAL),tileset,src/sprites,))

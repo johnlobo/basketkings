@@ -3,8 +3,6 @@
 #define _ASSETS_PLAYER01_H_
 
 #include <types.h>
-extern const u8 sp_palette[16];
-
 #define SP_PLAYER01_0_W 6
 #define SP_PLAYER01_0_H 24
 extern const u8 sp_player01_0[6 * 24];

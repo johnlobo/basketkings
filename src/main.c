@@ -17,9 +17,10 @@
 //------------------------------------------------------------------------------
 
 #include <cpctelera.h>
-#include "sprites/player01.h"
+#include <stdlib.h>
 #include "sprites/player04.h"
 #include "sprites/tileset02.h"
+#include "sprites/bball.h"
 #include "levels/map.h"
 
 // Pointers to the hardware backbuffer, placed in bank 1
@@ -130,6 +131,12 @@ u8 page;
 u8 *map_origins[2];
 u8 *screen_origin[2];
 u8 screen_page[2];
+u8 distx;
+u8 topx;
+u8 topy;
+u8 disty;
+u8 stepx;
+u8 stepy;
 
 void erasePlayer(u8 screen);
 void drawPlayer(u8 screen);
@@ -302,15 +309,37 @@ void jumpingPrep_enter() {
         player.move  = YES;
 }
 
+void shoot(){
+  u8* pvmem = cpct_getScreenPtr((u8*) screen_origin[page], player.x, player.y);
+  u8 n = 0;
+  distx = abs(136 - player.x);
+  topx = player.x + (distx / 2);
+  topy = 20;
+  disty = abs(topy - player.y);
+  stepx = 3;
+  stepy = disty / stepx;
+
+  cpct_drawSpriteMaskedAlignedTable(sp_bball, pvmem, SP_BBALL_W, SP_BBALL_H, g_tablatrans);
+
+  pvmem = cpct_getScreenPtr((u8*) screen_origin[page], 136, 50);
+  cpct_drawSpriteMaskedAlignedTable(sp_bball, pvmem, SP_BBALL_W, SP_BBALL_H, g_tablatrans);
+
+  for (n=0;n<((distx/2)/stepx);n++){
+    pvmem = cpct_getScreenPtr((u8*) screen_origin[page], player.x + (stepx*n), player.y - (stepy*n));
+    cpct_drawSpriteMaskedAlignedTable(sp_bball, pvmem, SP_BBALL_W, SP_BBALL_H, g_tablatrans);
+  }
+}
+
 void stopped() {
-        static const cpct_keyID keys[4] = {Key_CursorUp, Key_CursorDown, Key_CursorRight, Key_CursorLeft};
-        u8 k = checkKeys(keys, 4);
+        static const cpct_keyID keys[5] = {Key_CursorUp, Key_CursorDown, Key_CursorRight, Key_CursorLeft, Key_A};
+        u8 k = checkKeys(keys, 5);
         switch(k) {
         case 0: break; // Nada que hacer
         case 1: walking_enter(player.look); break;
         case 2: walking_enter(player.look); break;
         case 3: walking_enter(M_right); break;
         case 4: walking_enter(M_left); break;
+        case 5: shoot(); break;
         }
 }
 
@@ -433,6 +462,7 @@ void main(void) {
                 redrawPlayer(page);
                 cpct_waitVSYNC();
                 changeVideoMemoryPage();
+                redrawPlayer(page);
                 player.px = player.x;
                 player.py = player.y;
                 //        player.move = NO;
